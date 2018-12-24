@@ -19,7 +19,7 @@ body {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
     padding: 30px;
     margin: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     background-color: white;
     transition: 0.5s;
 }
@@ -32,7 +32,6 @@ body {
 .item-flex:hover, .item:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
 
 @media (min-width: 550px) {
     .item-flex { margin-left: 1%; width: 35%; }
