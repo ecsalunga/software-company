@@ -1,3 +1,51 @@
+.header {
+    position: fixed;
+    z-index: 501;
+    width: 100%;
+    top: 0px;
+    min-width: 350px;
+    background-color: #2196f3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    height: 20px;
+    padding-top: 10px;
+}
+
 nav a {
+    text-decoration: none;
+    font-weight: bold;
     margin: 5px;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    min-height: 87vh;
+    padding: 20px;
+}
+
+.content-space {
+    height: 35px;
+}
+
+.footer {
+    height: 15px;
+    width: 100%;
+    bottom: 0px;
+    background-color: #fafafa;
+    border-top: 1px solid #eeeeee;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    padding: 10px;
+}
+
+.brand {
+    color: gray;
+}
+
+.brand a {
+    text-decoration: none; 
+    margin-left: 5px;
+    font-weight: bold;
+    color: gray;
 }
