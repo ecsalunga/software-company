@@ -2,6 +2,7 @@ html { height: 100%; }
 html {
     -webkit-text-size-adjust: 100%;
 }
+
 body {
     height: 98%;
     margin: 0;
@@ -10,4 +11,37 @@ body {
 	font-style: normal;
     font-variant: normal;
     overflow-x: hidden;
+    background-color: #eae9e9;
+}
+
+.item-flex, .item {
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    padding: 30px;
+    margin: 3px;
+    margin-bottom: 20px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.item-flex {
+    width: 84%;
+    float: left;
+}
+
+.item-flex:hover, .item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+@media (min-width: 550px) {
+    .item-flex { margin-left: 1%; width: 35%; }
+}
+
+@media (min-width: 720px) {
+    .item-flex { margin-left: 2%; width: 38%; }
+}
+
+@media (min-width: 1200px) {
+    .item-flex { margin-left: 3%; width: 24%; }
 }

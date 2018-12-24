@@ -20,7 +20,6 @@ nav a {
 }
 
 .content {
-    width: 100%;
     min-height: 87vh;
     padding: 20px;
 }
@@ -48,4 +47,10 @@ nav a {
     margin-left: 5px;
     font-weight: bold;
     color: gray;
+}
+
+.content:after {
+    content: "";
+    display: table;
+    clear: both; 
 }
