@@ -20,7 +20,7 @@ nav a {
 }
 
 .content {
-    min-height: 86vh;
+    min-height: 82vh;
     padding: 20px;
 }
 
@@ -29,9 +29,11 @@ nav a {
 }
 
 .footer {
+    border-radius: 5px;
     height: 15px;
-    width: 100%;
-    bottom: 0px;
+    width: 35%;
+    margin-left: -10px;
+    margin-bottom: 20px;
     background-color: #fafafa;
     border-top: 1px solid #eeeeee;
     box-shadow: 0 1px 3px rgba(0,0,0,0.25);
@@ -39,6 +41,7 @@ nav a {
 }
 
 .brand {
+    margin-left: 20px;
     color: gray;
 }
 
