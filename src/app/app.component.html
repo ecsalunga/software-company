@@ -1,12 +1,17 @@
 <div class="header">
   <nav>
+    <a routerLink="/index">Home</a>
+    <a routerLink="/products">Products</a>
+    <a routerLink="/services">Services</a>
+    <a routerLink="/contact">Contact</a>
     <a routerLink="/about">About</a>
-    <a routerLink="/tester">Tester</a>
   </nav>
 </div>
 <div class="content">
-  <div class="content-space"></div>
-  <router-outlet></router-outlet>
+  <div>
+    <div class="content-space"></div>
+    <router-outlet></router-outlet>
+  </div>
 </div>
 <div class="footer">
   <div class="brand">hosted with ❤ by

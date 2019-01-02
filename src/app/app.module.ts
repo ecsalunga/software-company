@@ -9,12 +9,20 @@ import { MatButtonModule } from '@angular/material';
 import { TesterComponent } from './tester/tester.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { ServicesComponent } from './services/services.component';
+import { ProductsComponent } from './products/products.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TesterComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent,
+    ServicesComponent,
+    ProductsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

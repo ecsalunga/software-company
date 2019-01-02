@@ -6,7 +6,7 @@ html {
 body {
     height: 98%;
     margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 12px;
 	font-style: normal;
     font-variant: normal;
@@ -18,14 +18,12 @@ body {
     border-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
     padding: 30px;
-    margin: 3px;
     margin-bottom: 15px;
     background-color: white;
     transition: 0.5s;
 }
 
 .item-flex {
-    width: 84%;
     float: left;
 }
 
@@ -34,11 +32,15 @@ body {
 }
 
 @media (min-width: 550px) {
-    .item-flex { margin-left: 1%; width: 35%; }
+    .item-flex { margin-left: 2%; width: 36%; }
 }
 
 @media (min-width: 720px) {
     .item-flex { margin-left: 2%; width: 38%; }
+}
+
+@media (min-width: 950px) {
+    .item-flex { margin-left: 2%; width: 40%; }
 }
 
 @media (min-width: 1200px) {

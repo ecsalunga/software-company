@@ -4,35 +4,41 @@
     width: 100%;
     top: 0px;
     min-width: 350px;
-    background-color: #2196f3;
-    padding-top: 5px;
+    background-color: #2195f3ee;
+    padding-top: 20px;
     padding-bottom: 5px;
     color: #ffffff;
-    height: 20px;
-    padding-top: 10px;
+    height: 35px;
 }
 
 nav a {
     text-decoration: none;
-    font-weight: bold;
-    margin: 5px;
+    margin: 10px;
+    font-size: 16px;
     color: white;
+    transition: 0.75s;
+}
+
+nav a:hover {
+    color: black;
 }
 
 .content {
-    min-height: 82vh;
+    margin: auto;
+    display: inline-block;
+    min-height: 75vh;
     padding: 20px;
 }
 
 .content-space {
-    height: 35px;
+    height: 50px;
 }
 
 .footer {
     border-radius: 5px;
     height: 15px;
-    width: 35%;
-    margin-left: -10px;
+    width: 225px;
+    margin-left: -15px;
     margin-bottom: 20px;
     background-color: #fafafa;
     border-top: 1px solid #eeeeee;
